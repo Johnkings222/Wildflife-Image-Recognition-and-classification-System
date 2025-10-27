@@ -1,0 +1,312 @@
+# Wildlife Image Recognition System - .gitignore
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+
+# ============================================================================
+# PyTorch / Deep Learning
+# ============================================================================
+
+# PyTorch model weights (if you want to exclude them from repo)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# PyTorch Hub cache (pretrained models)
+torch/
+checkpoints/
+.cache/
+
+# Datasets (usually too large for git)
+data/
+datasets/
+*.h5
+*.hdf5
+
+# TensorBoard logs
+runs/
+logs/
+tensorboard/
+
+# Model training outputs
+outputs/
+results/
+experiments/
+
+# ONNX models
+*.onnx
+
+
+# ============================================================================
+# IDE / Editor
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ============================================================================
+# Project Specific
+# ============================================================================
+
+
+# Output files
+predictions.txt
+results.txt
+output/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# Database files
+*.db
+*.sqlite
+
+# Configuration files with secrets
+config.ini
+secrets.json
+.env.local
+
+# Model checkpoints (if saving custom trained models)
+saved_models/
+model_weights/
+
+# User uploads
+uploads/
+
+
+# ============================================================================
+# Documentation
+# ============================================================================
+
+# Build artifacts (if using Sphinx or similar)
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# PDF/Office files (if auto-generated)
+*.pdf
+*.docx
+*.xlsx
+
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Package files
+*.deb
+*.rpm
+
+# Lock files
+*.lock
